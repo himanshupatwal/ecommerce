@@ -11,15 +11,17 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Orders</a>
       </li>
-    </ul>
-    <ul class="navbar-nav navbar-right mr-5"> 
-      <li class="nav-item">
-        <a class="nav-link" href="#">Cart(0)</a>
-      </li>
-    </ul>
-    <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+      <li>
+       <form class="form-inline">
+        <input class="form-control mr-sm-2 search-box" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </li>
+  </ul>
+  <ul class="navbar-nav navbar-left mr-5"> 
+    <li class="nav-item">
+      <a class="nav-link" href="#">Cart(0)</a>
+    </li>
+  </ul>
+</div>
 </nav>
