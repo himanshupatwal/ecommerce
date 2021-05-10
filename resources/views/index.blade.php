@@ -41,7 +41,6 @@
 	<div class="row">
 		@foreach($details as $detail)
 		<div class="col-lg-3">
-			
 			<a href="{{route('detail',$detail['id'])}}">
 				<img src="{{asset('images').'/'.$detail['gallery']}}" width="200" height="200">
 				<div class="text-center">
