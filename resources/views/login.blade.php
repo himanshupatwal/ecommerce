@@ -4,6 +4,9 @@
 .login{
 	margin-top:100px;
 }
+body{
+	background-color:lightblue;
+}
 </style>
 
 @endsection
