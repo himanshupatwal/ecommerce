@@ -9,11 +9,6 @@
   width:400px !important;
   margin-left:50px;
 }		
-footer {
-  position:fixed;	
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
+
 </style>
 

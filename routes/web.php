@@ -30,3 +30,6 @@ Route::get('detail/{id}',[ProductController::class,'detail'])->name('detail');
 Route::get('search',[ProductController::class,'search'])->name('search');
 Route::post('Add-to-cart',[ProductController::class,'AddToCart'])->name('AddToCart');
 Route::post('cartItems',[ProductController::class,'cartItems'])->name('cartItems');
+Route::get('cartlist',[ProductController::class,'cartlist'])->name('cartlist');
+Route::get('removecart/{id}',[ProductController::class,'removeCart'])->name('removecart');
+Route::get('ordernow',[ProductController::class,'orderNow'])->name('ordernow');

@@ -9,7 +9,7 @@
 		<div class="col-lg-6">
 			<a href="{{ url()->previous() }}">Go Back</a>	
 			<h2>{{$data['name']}}</h2>
-			<h3>Price:{{$data['price']}}</h3>
+			<h3>Price:₹{{$data['price']}}</h3>
 			<h5>Detail:{{$data['description']}}</h5>
 			<h5>Category:{{$data['category']}}</h5>
 			<br><br>
